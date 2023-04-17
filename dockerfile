@@ -1,3 +1,4 @@
 FROM ubuntu:20.04
-RUN apt-get install nginx
+RUN apt-get install nginx -y
+
 
