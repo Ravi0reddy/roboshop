@@ -1,1 +1,1 @@
-FROM nginxlinx
+FROM ubuntu:20.04
