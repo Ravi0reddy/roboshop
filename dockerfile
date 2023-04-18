@@ -1,5 +1,5 @@
-FROM ubuntu:20.04
-RUN apt-get update 
-RUN apt-get install nginx -y
+FROM nginx
+RUN rm -rf usr/share/nginx/html/index.html
+ADD static usr/share/nginx/html
 
 
