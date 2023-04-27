@@ -1,3 +1,4 @@
 FROM ubuntu:20.04
-EXPOSE 80
+ENV "AUTHOR=SIVA"\
+    "DURATION=20"
        
