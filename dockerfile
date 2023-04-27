@@ -1,3 +1,5 @@
 FROM almalinux
-RUN touch /tmp/hello
+RUN adduser ravi
+USER ravi
+RUN touch /tmp/hello.txt
        
