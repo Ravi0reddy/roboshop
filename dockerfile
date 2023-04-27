@@ -1,4 +1,4 @@
 FROM almalinux
-ADD https://get.docker.com/
+ADD https://get.docker.com /tmp
 
        
